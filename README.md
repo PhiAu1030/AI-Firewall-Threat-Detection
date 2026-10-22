@@ -95,9 +95,30 @@ These results show how accuracy alone is not enough when using a security detect
 The prototype demonstrated how machine learning could support firewall decisions but additional testing and improvements would be needed before using something similar in a real network environment. 
 
 
+## How to Run the Project
+
+Requirements
+- Python 3
+- Jupyter Notebook or Google Colab
+- Required Python Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, and Seaborn
+
+Instructions
+1. Download the AI_Firewall_Threat_Detection.ipynb from this repository.
+2. Download the UNSW-NB15 training and testing datasets from Kaggle.
+3. Make sure the CSV files are available in the notebooks working directory:
+   - UNSW_NB15_training-set.csv
+   - UNSW_NB15_testing-set.csv
+4. Open the notebook in Jupyter Notebook or Google Colab.
+5. Install missing dependencies:
+   - pip install pandas numpy scikit-learn matplotlib seaborn
+6. run the notebook cells from top to bottom.
+
+The notebook will train the Random Forest model, evaluate its performance, generate a confusion matrix, show feature importance, and produce simulated ALLOW/BLOCK firewall recommendations. 
 
 
+## Project Files
 
+- [AI Firewall Jupyter Notebook](AI_Firewall_Threat_Detection.ipynb) — Python implementation, Random Forest model, evaluation metrics, confusion matrix, and simulated firewall responses.
 
 
 
